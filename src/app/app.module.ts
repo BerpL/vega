@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//Rutas
+import { APP_ROUTING } from './app.routes';
+
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -26,7 +30,8 @@ import { EventosComponent } from './components/eventos/eventos.component';
     EventosComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]

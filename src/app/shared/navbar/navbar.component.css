@@ -1,0 +1,11 @@
+#nav {
+    position: absolute;
+    z-index: 1000;
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+#menu {
+    background-color: black !important;
+    font-weight: 800;
+}
