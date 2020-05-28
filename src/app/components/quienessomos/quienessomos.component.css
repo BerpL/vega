@@ -1,0 +1,29 @@
+.cleandefaultpadding {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.grande{
+    height: 20em;
+}
+
+.block1{
+    margin: 0em;
+    padding: 30px  0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.column-image img {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.column-image img:last-child{
+    padding-bottom: 30px;
+}
+.column-image img:first-child{
+    padding-top: 30px;
+}
