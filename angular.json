@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "vega"
+    }
+  },
+  "defaultProject": "vega",
+  "cli": {
+    "analytics": "5456cbca-8f56-4e75-b232-d5a75972e252"
+  }
 }
