@@ -1,3 +1,4 @@
+import { UbicanosComponent } from './components/ubicanos/ubicanos.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { QuienessomosComponent } from './components/quienessomos/quienessomos.component';
@@ -10,6 +11,7 @@ import { EventosComponent } from './components/eventos/eventos.component';
 const APP_ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'quienes-somos', component: QuienessomosComponent },
+    { path: 'ubicanos', component: UbicanosComponent },
     { path: 'productos', component: ProductosComponent },
     { path: 'ofertas', component: OfertasComponent },
     { path: 'carta-menu', component: MenuComponent },

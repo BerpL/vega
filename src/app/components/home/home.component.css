@@ -1,0 +1,13 @@
+.test div{
+    padding: 0;
+}
+
+.test img{
+    width: 100%;
+    height: 200px;
+    padding: .5em .5em .5em .5em;
+}
+
+#principal img{
+    height: 400px;
+}

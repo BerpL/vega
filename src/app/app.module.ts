@@ -15,6 +15,7 @@ import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { EventosComponent } from './components/eventos/eventos.component';
+import { UbicanosComponent } from './components/ubicanos/ubicanos.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { EventosComponent } from './components/eventos/eventos.component';
     OfertasComponent,
     MenuComponent,
     BlogComponent,
-    EventosComponent
+    EventosComponent,
+    UbicanosComponent
   ],
   imports: [
     BrowserModule,
