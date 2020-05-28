@@ -33,3 +33,16 @@ html {
 .fadeIn {
     animation-name: fadeIn;
 }
+
+.main-container {
+    margin-top: 30px;
+}
+
+.bg {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.fixed-top {
+    position: fixed !important;
+}
